@@ -61,10 +61,17 @@
             <?= $this->content ?>
             <hr>
             <footer>
-                <p>
-                    &copy; <?= date('Y') ?>
-                    <a href="https://getlaminas.org/">Imobiliária</a>Sistema de Exemplo de 2021.
-                </p>
+                <div style="height: 100%">
+                    <div style="width: 45%; display: inline-block; text-align: center;">
+                        <p>
+                            &copy; <?= date('Y') ?>
+                            <a href="https://getlaminas.org/">Imobiliária</a> Sistema de Exemplo de 2021.
+                        </p>
+                    </div>
+                    <div style="width: 45%; display: inline-block; text-align: center;">
+                        Jeyson Luiz Romualdo
+                    </div>
+                </div>
             </footer>
         </div>
         <?= $this->inlineScript()
